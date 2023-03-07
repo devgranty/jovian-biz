@@ -1,0 +1,60 @@
+.category-heading{color:#000;}
+.view-more-link{text-decoration:none; color:#00a1ff; transition:all ease-in 270ms;}
+.view-more-link:hover{text-decoration:underline; color:#000;}
+.empty-section-msg{color:#555;}
+.search-heading{text-align:center; color:#555;}
+.load-more-btn{display:block; background-color:#00a1ff; color:#fff; border-radius:25px; margin:10px auto; width:fit-content; padding:15px; box-shadow:0 2px 5px 0 rgba(0,0,0,.26); outline:none; border:none; cursor:pointer;}
+
+.jhs-hero{height:50vh; width:100%; background-color:#333;
+background-image:url('../../assets/img/brunette-female-girl-206296.gif'); background-position:center; background-attachment:fixed; background-clip:border-box; background-origin:border-box; background-repeat:no-repeat; background-size:cover; position:relative;}
+.jhs-hero::after{content:''; position:absolute; top:0; background:rgba(0,0,0,.48); height:50vh; width:100%;}
+.jhs-hero-text{position:relative; z-index:2; color:#fff; text-align:center; margin:0; line-height:1.5; padding:10vh 10px; font-size:40px;}
+
+.jhs-content-container{background-color:#000; margin:20px 0 20px 0; height:300px; width:100%;}
+.jhs-content-container > a{text-decoration:none; color:inherit;}
+.jhs-content-container > a > img{height:200px; width:100%;}
+.jhs-content-container > a > ul{list-style-type:none; margin:0; padding:0 10px; height:calc(300px - 200px); width:100%;}
+.jhs-content-container > a > ul > li:first-child{color:#00a1ff;}
+.jhs-content-container > a > ul > li{color:#fff; white-space:nowrap; width:95%; margin:5px 0; overflow:hidden; text-overflow:ellipsis;}
+
+.product-page-sub-title{text-align:center; text-transform:uppercase;}
+.product-details-ul{list-style-type:disc; font-size:18px;}
+.product-details-ul li{margin:6px 0;}
+.product-details-ul li label{color:#00a1ff;}
+.order-section{display:grid; grid-gap:5px 10px; grid-template-columns:auto auto; justify-content:center; align-content:center; margin:10px 20px;}
+.order-section > a{text-decoration:none; padding:8px 12px; border-radius:4px; color:#fff;}
+
+
+
+.site-msg{background-color:#000; color:#fff; width:100%; padding:10px;}
+.page-heading{background-color:#333; color:#00a1ff; text-align:center; font-weight:lighter; font-size:20px; padding:12px 0; margin:0; width:100%;}
+
+.wrapper-container{max-width:700px; background-color:#eee; padding:0 0 20px; margin:10px auto;}
+.wrapper-container h2{background-color:#000; color:#00a1ff; padding:10px 0; text-align:center;}
+
+.wrapper-container form input[type=text], .wrapper-container form input[type=url], .wrapper-container form input[type=email], .wrapper-container form input[type=number], .wrapper-container form input[type=tel], .wrapper-container form input[type=password], .wrapper-container form select, .wrapper-container form textarea{display:block; margin:10px auto; outline:none; border:2px solid #333; border-radius:2px; padding:12px; width:80%;}
+.wrapper-container form input[type=file]{display:block; margin:10px auto; outline:none; border:2px solid #00a1ff; border-radius:10px; padding:12px; width:80%;}
+.wrapper-container form label{position:relative; left:10%; top:7px; color:#00a1ff;}
+.wrapper-container form div{width:fit-content; margin:auto;}
+.wrapper-container form input[type=submit], .wrapper-container form input[type=button]{display:block; margin:5px auto; outline:none; border:none; padding:12px 8px; background-color:#000; color:#fff; cursor:pointer;}
+.wrapper-container form a{text-decoration:none; text-align:center; color:#00a1ff; margin:20px 0;}
+
+.details-container{background-color:#eee; max-width:700px; margin:50px auto; padding:30px 10px;}
+.details-container > h3{text-align:center; }
+.details-container > ul{margin:5px 0;}
+.details-container > ul > li{color:#00a1ff; margin:10px 0;}
+.details-container > ul > li > span{color:#000;}
+
+table{border-collapse:collapse; width:100%;}
+th,td{border:1px solid #ddd; text-align:left; padding:8px;}
+tr:nth-child(even){background-color:#ddd;}
+
+tr td:nth-child(2){background-color:#00a1ff; color:#fff; font-weight:bolder; font-family:'Courier New', Courier, monospace;}
+tr td:last-child{background-color:#ee3000; color:#fff; font-weight:bolder; font-family:'Courier New', Courier, monospace;}
+
+tr td:nth-child(2) a{color:inherit;}
+tr td:last-child a{color:inherit;}
+
+@media screen and (min-width:768px){
+    .jhs-hero-text{line-height:2.0; padding:15vh 50px; font-size:46px;}
+}

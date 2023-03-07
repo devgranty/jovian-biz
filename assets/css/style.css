@@ -1,0 +1,37 @@
+*{box-sizing:border-box;}
+body{padding:0; margin:0; font-family:'Lato', sans-serif;}
+
+@font-face{font-family:"sofia"; src:url("../font/Sofia-Regular.woff");}
+
+.headernav{width:100%; padding:10px 0; background-color:#000; box-shadow:0 3px 19px -3px rgba(0, 0, 0, .8); text-align:center;}
+.headernav > .sitename{color:#fff; font-weight:bolder; font-size:27px; display:inline-block; font-family:"sofia";}
+.headernav > .sitename > a{color:inherit; text-decoration:none;}
+.headernav-navbtns{cursor:pointer; color:#fff; position:absolute; padding:8px;}
+
+.search-bar{position:fixed; z-index:3; top:0; right:10px; background-color:#eee; margin:0; padding:20px 30px; border-radius:2px; overflow-x:hidden; transition:0.2s ease;}
+.search-bar input[type=search]{margin:0; padding:12px; border-radius:25px; border:3px solid #333; font-family:inherit;}
+
+
+.sidenav{height:100%; width:0; position:fixed; z-index:3; bottom:0; left:0; background-color:#fff; overflow-x:hidden; transition:0.2s; padding-top:60px;}
+.sidenav a#closebtn, .search-bar a#closebtn{position:absolute; top:-8px; font-size:30px; text-decoration:none; color:#111; padding:8px; font-weight:bolder;}
+.sidenav a#closebtn:hover, .search-bar a#closebtn:hover{color:#dd9900; transform:scale(1.1); transition:.3s ease;}
+.sidenav > .sidenav-sub-heading{color:#fff; background-color:#00a1ff; padding:10px 0; text-align:center;}
+.sidenav-ul{padding:0; margin:0; list-style-type:none;}
+.sidenav-ul li a{padding:12px 0; margin-left:20px; text-decoration:none; display:block; color:#333; font-size:18px; transition:0.2s; border-bottom:1px dotted #00a1ff;}
+.sidenav-ul li a:hover{color:#00a1ff; transform:scale(1.1); border-bottom:1px dotted #333; transition:all .3s ease;}
+
+.content-section{padding:20px 0;}
+.content-section-heading{text-transform:uppercase; text-align:center; color:#000;}
+
+.footer{width:100%; background-color:#111; padding:10px 0;}
+.footer > .copyright{text-align:center; color:#eee; font-size:15px;}
+.footer > .copyright > span{color:#00a1ff;}
+.footer > .devnote{text-align:center; color:#eee; font-size:12px; margin-top:10px;}
+.footer-links-ul{list-style-type:none; margin:6px auto; padding:0; width:fit-content;}
+.footer-links-ul li{display:inline; margin:1px;}
+.footer-links-ul li a{display:inline-block; padding:12px; text-decoration:none;}
+.footer-links-ul li a:hover{transition:.3s ease; transform:scale(1.2);}
+
+@media screen and (max-width:450px){
+    .sidenav{padding-top:15px;}
+}

@@ -1,8 +1,8 @@
 <?php
 
-$servername = "localhost";
-$dbname = "jovianbiz_db";
-$username = "root";
+$servername = "127.0.0.1";
+$dbname = "";
+$username = "";
 $password = "";
 
 try{
